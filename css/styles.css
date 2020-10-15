@@ -1,4 +1,27 @@
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/Gotham Pro.eot');
+	src: local('☺'), url('../fonts/Gotham Pro.woff') format('woff'), url('../fonts/Gotham Pro.ttf') format('truetype'), url('../fonts/Gotham Pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 .wrap {
   max-width: 1030px;
   margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header__menu-left {
+	display: flex;
+	flex-wrap: wrap;
 }
