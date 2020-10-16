@@ -19,9 +19,41 @@
 .header {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.header__menu-left {
+.nav-left {
+	display: flex;
+}
+
+.logo {
+	width: 55px;
+	height: 55px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: cover;
+}
+
+.header__item {
+	list-style: none;;
+}
+
+.header__link {
+	font-family: Gotham Pro;
+	font-size: 12px;
+	line-height: 11px;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav-right {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.header__lang {
+	width: 20px;
+	height: 20px;
+	background: url(../img/united-states.png) no-repeat;
 }
