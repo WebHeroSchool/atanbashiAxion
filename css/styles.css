@@ -63,7 +63,25 @@
 }
 
 .nav-right__search-form {
+	position: relative;
 	margin-right: 35px;
+}
+
+.nav-right__info {
+	width: 178px;
+	min-height: 20px;
+}
+
+.nav-right__field {
+	width: 163px;
+	border: solid 1px;
+	outline: none;
+}
+
+.nav-right__submit {
+	height: 20px;
+	width: 20px;
+	background: url(../img/search.png) no-repeat;
 }
 
 .header__lang {
