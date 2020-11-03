@@ -16,6 +16,8 @@
   margin: 0 auto;
 }
 
+/* header start */
+
 .header {
 	display: flex;
 	flex-wrap: wrap;
@@ -95,15 +97,20 @@
 .header__basket {
 	display: flex;
 	justify-content: flex-start;
-	max-width: 54px;
-
+	align-items: center;
 }
 
 .header__link_cart {
-	margin-right: 0;
+	margin-right: 4px;
 }
 
 .header__number {
+	font-family: 'Gotham Pro';
+	font-size: 10px;
+	line-height: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 15px;
 	height: 15px;
 	color: #fff;
@@ -117,6 +124,10 @@
 	background: url(../img/united-states.png) no-repeat;
 	border: none;
 }
+
+/* header end */
+
+/* section1 start */
 
 .section1 {
 	height: 280px;
@@ -135,6 +146,7 @@
 }
 
 .section1__shop {
+	display: inline-block;
 	font-family: 'Gotham Pro';
 	font-size: 12px;
 	line-height: 11px;
@@ -142,13 +154,66 @@
 	color: #fff;
 	text-decoration: none;
 	padding-left: 60px;
+	padding-right: 55px;
+	background: url(../img/Arrow.png) no-repeat 95% center;
+	transition: .3s all;
 }
 
+.section1__shop:focus, .section1__shop:hover {
+	background: url(../img/Arrow.png) no-repeat right center;
+}
 .section2__title {
 	font-family: 'Gotham Pro';
 	font-size: 22px;
 	line-height: 21px;
 	text-align: center;
 	text-transform: uppercase;
+	color: #000;
+}
+
+.section2__cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.section2__card {
+	max-width: 206px;
+}
+
+.section2__pic {
+	max-width: 188px;
+	height: 173px;
+}
+.section2__pic_black {
+	background: url(../img/black.png) no-repeat;
+}
+
+.section2__pic_yellow {
+	background: url(../img/yellow.png)no-repeat;
+}
+
+.section2__pic_red {
+		background: url(../img/red.png)no-repeat;
+}
+
+.section2__pic_blue {
+		background: url(../img/blue.png)no-repeat;
+}
+.section2__text {
+		font-family: 'Gotham Pro';
+		font-size: 12px;
+		line-height: 11px;
+		color: #000;
+}
+
+.section2__choice {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section2__money {
+	font-family: 'Gotham Pro';
+	font-size: 14px;
+	line-height: 13px
 	color: #000;
 }
