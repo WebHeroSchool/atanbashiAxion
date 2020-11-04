@@ -184,22 +184,12 @@
 
 .section2__card {
 	max-width: 206px;
-	position: relative;
-}
-
-.section2__card::after {
-	content: "";
-	position: absolute;
-	top: 22%;
-	right: -41px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	height: 40%;
-	width: 1px;
-	background: linear-gradient(to bottom, #000 0%, #000 100%);
-	opacity: .2;
 }
 
-.section2__card::after:last-child {
-	background: none;
+.section2__card:last-child {
+	border-right: none;
 }
 
 .section2__pic {
