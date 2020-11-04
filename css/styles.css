@@ -179,10 +179,22 @@
 .section2__cards {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 38px;
 }
 
 .section2__card {
 	max-width: 206px;
+	position: relative;
+}
+
+.section2__card::after {
+	content: "";
+	position: absolute;
+	top: 22%;
+	right: -41px;
+	height: 40%;
+	width: 1px;
+	background: linear-gradient(to bottom, #9b1f21 0%, #e2e2e2 100%);
 }
 
 .section2__pic {
