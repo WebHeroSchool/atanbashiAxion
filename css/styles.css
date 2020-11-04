@@ -194,7 +194,12 @@
 	right: -41px;
 	height: 40%;
 	width: 1px;
-	background: linear-gradient(to bottom, #9b1f21 0%, #e2e2e2 100%);
+	background: linear-gradient(to bottom, #000 0%, #000 100%);
+	opacity: .2;
+}
+
+.section2__card::after:last-child {
+	background: none;
 }
 
 .section2__pic {
@@ -206,7 +211,7 @@
 	margin-left: 11%;
 	margin-bottom: 27px;
 }
-/*
+
 .section2__pic_black {
 	background: url(../img/black.png) no-repeat;
 }
@@ -222,7 +227,6 @@
 .section2__pic_blue {
 	background: url(../img/blue.png)no-repeat;
 }
-*/
 
 .section2__text {
 	font-family: 'Gotham Pro';
@@ -247,21 +251,6 @@
 }
 
 
-#black:checked ~ section2__pic, label[for=black] {
-	background: url(../img/black.png) no-repeat;
-}
-
-#yellow:checked ~ section2__pic, label[for=yellow] {
-	background: url(../img/yellow.png)no-repeat;
-}
-
-#red:checked ~ section2__pic, label[for=red] {
-		background: url(../img/red.png)no-repeat;
-}
-
-#blue:checked ~ section2__pic, label[for=blue] {
-		background: url(../img/blue.png)no-repeat;
-}
 /* section2 end */
 
 /* section3 start */
