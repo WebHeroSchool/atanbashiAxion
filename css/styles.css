@@ -1,7 +1,7 @@
 @font-face {
+	src: url('../fonts/GothaProReg.eot');
+	src: local('☺'), url('../fonts/GothaProReg.woff') format('woff'), url('../fonts/GothaProReg.ttf') format('truetype'), url('../fonts/GothaProReg.svg') format('svg');
 	font-family: 'Gotham Pro';
-	src: url('../fonts/Gotham Pro.eot');
-	src: local('☺'), url('../fonts/Gotham Pro.woff') format('woff'), url('../fonts/Gotham Pro.ttf') format('truetype'), url('../fonts/Gotham Pro.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,8 +23,8 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 28px;
-	padding-top: 32px;
+	margin-bottom: 29px;
+	padding-top: 31px;
 }
 
 .nav-left {
@@ -74,7 +74,7 @@
 
 .nav-right__info {
 	width: 178px;
-	min-height: 20px;
+	height: 10px;
 	position:relative;
 }
 
@@ -91,7 +91,7 @@
 	background: url(../img/search.png) no-repeat;
 	position: absolute;
 	left: 90%;
-	top: 12%;
+	top: -3%;
 }
 
 .header__basket {
@@ -132,7 +132,7 @@
 .section1 {
 	height: 280px;
 	background: url(../img/sec1.png);
-	margin-bottom: 54px;
+	margin-bottom: 53px;
 }
 
 .section1__title {
@@ -142,7 +142,7 @@
 	text-transform: uppercase;
 	color: #fff;
 	max-width: 195px;
-	padding: 90px 0 15px 60px;
+	padding: 89px 0 13px 60px;
 }
 
 .section1__shop {
@@ -162,6 +162,11 @@
 .section1__shop:focus, .section1__shop:hover {
 	background: url(../img/Arrow.png) no-repeat right center;
 }
+
+/* section1 end */
+
+/* section2 start */
+
 .section2__title {
 	font-family: 'Gotham Pro';
 	font-size: 22px;
@@ -183,7 +188,13 @@
 .section2__pic {
 	max-width: 188px;
 	height: 173px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	margin-left: 11%;
+	margin-bottom: 27px;
 }
+/*
 .section2__pic_black {
 	background: url(../img/black.png) no-repeat;
 }
@@ -193,27 +204,52 @@
 }
 
 .section2__pic_red {
-		background: url(../img/red.png)no-repeat;
+	background: url(../img/red.png)no-repeat;
 }
 
 .section2__pic_blue {
-		background: url(../img/blue.png)no-repeat;
+	background: url(../img/blue.png)no-repeat;
 }
+*/
+
 .section2__text {
-		font-family: 'Gotham Pro';
-		font-size: 12px;
-		line-height: 11px;
-		color: #000;
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	color: #000;
+	margin-bottom: 9px;
+	padding-left: 5%;
 }
 
 .section2__choice {
 	display: flex;
 	justify-content: space-between;
+	padding-left: 6%;
 }
 
 .section2__money {
 	font-family: 'Gotham Pro';
 	font-size: 14px;
-	line-height: 13px
+	line-height: 13px;
 	color: #000;
 }
+
+
+#black:checked ~ section2__pic, label[for=black] {
+	background: url(../img/black.png) no-repeat;
+}
+
+#yellow:checked ~ section2__pic, label[for=yellow] {
+	background: url(../img/yellow.png)no-repeat;
+}
+
+#red:checked ~ section2__pic, label[for=red] {
+		background: url(../img/red.png)no-repeat;
+}
+
+#blue:checked ~ section2__pic, label[for=blue] {
+		background: url(../img/blue.png)no-repeat;
+}
+/* section2 end */
+
+/* section3 start */
