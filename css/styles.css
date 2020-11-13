@@ -254,8 +254,8 @@
 	max-width: 320px;
 	padding-right: 2%;
 	display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section3__title {
@@ -274,11 +274,12 @@
 	line-height: 17px;
 	color: #FFFFFF;
 	max-width: 266px;
-	margin-bottom: 6px;
+	margin-bottom: 17px;
 }
 
 .section3__more {
 	display: inline-block;
+	max-width: 92px;
 	font-family: 'Gotham Pro';
 	font-size: 12px;
 	line-height: 11px;
@@ -292,4 +293,79 @@
 
 .section3__more:focus, .section3__more:hover {
 	background: url(../img/Arrow.png) no-repeat right center;
+}
+
+/* section3 end */
+
+/* section4 start */
+
+.section4 {
+	margin-bottom: 79px;
+}
+
+.section4__title {
+	font-family: 'Gotham Pro';
+	font-size: 22px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: 40px;
+}
+
+.section4__cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 54px;
+}
+
+.section4__card-pic {
+	margin-bottom: 29px;
+}
+
+.section4__card-title {
+	font-family: 'Gotham Pro';
+	font-size: 18px;
+	line-height: 17px;
+	color: #000;
+	margin-bottom: 8px;
+}
+
+.section4__card-text {
+	font-family: 'Gotham Pro';
+	font-size: 14px;
+	line-height: 17px;
+	color: #000;
+	margin-bottom: 18px;
+}
+
+.section4__story {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section4__more {
+	display: inline-block;
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	padding-right: 55px;
+	background: url(../img/Arrow-black.png) no-repeat 95% center;
+	transition: .3s all;
+}
+
+.section4__more:focus, .section4__more:hover {
+	background: url(../img/Arrow-black.png) no-repeat right center;
+}
+
+.section4__date {
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	text-transform: uppercase;
+	color: #000;
+	opacity: .3;
 }
