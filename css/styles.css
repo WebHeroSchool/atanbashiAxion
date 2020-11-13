@@ -167,6 +167,9 @@
 
 /* section2 start */
 
+.section2 {
+	margin-bottom: 26px;
+}
 .section2__title {
 	font-family: 'Gotham Pro';
 	font-size: 22px;
@@ -229,3 +232,64 @@
 /* section2 end */
 
 /* section3 start */
+
+.section3 {
+	height: 494px;
+	background-color: #000;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+
+.section3__view {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section3__video {
+	width: 97%;
+}
+
+.section3__info {
+	max-width: 320px;
+	padding-right: 2%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3__title {
+	font-family: 'Gotham Pro';
+	font-size: 22px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	max-width: 265px;
+	margin-bottom: 14px;
+}
+
+.section3__text {
+	font-family: Gotham Pro;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+	max-width: 266px;
+	margin-bottom: 6px;
+}
+
+.section3__more {
+	display: inline-block;
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	padding-right: 55px;
+	background: url(../img/Arrow.png) no-repeat 95% center;
+	transition: .3s all;
+}
+
+.section3__more:focus, .section3__more:hover {
+	background: url(../img/Arrow.png) no-repeat right center;
+}
