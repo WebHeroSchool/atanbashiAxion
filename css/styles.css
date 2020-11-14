@@ -408,8 +408,9 @@
 
 .footer__cards {
 	display: grid;
-	grid-template-columns: minmax(100px, 175px) repeat(4, 1fr);
-	max-width: 80%;
+	grid-template-columns: minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px);
+grid-column-gap: 23px;
+	max-width: 60%;
 	margin: 0 auto;
 }
 
