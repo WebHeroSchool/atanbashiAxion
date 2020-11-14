@@ -369,3 +369,64 @@
 	color: #000;
 	opacity: .3;
 }
+
+/* section4 end */
+
+/* section5 start */
+
+.section5 {
+	margin-bottom: 80px;
+}
+
+.section5__title {
+	font-family: 'Gotham Pro';
+	font-size: 18px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #000;
+	opacity: 0.3;
+	text-align: right;
+}
+
+.section5__cards{
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.section5__img_hidden {
+	display: none;
+}
+
+/* section5 end */
+
+/* footer start */
+
+.footer {
+	height: 296px;
+	background: #000;
+}
+
+.footer__cards {
+	display: grid;
+	grid-template-columns: minmax(100px, 175px) repeat(4, 1fr);
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.footer__menu{
+}
+
+.footer__card-title {
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	color: #FFF;
+}
+
+.footer__card-link {
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	color: #FFF;
+	text-decoration: none;
+}
