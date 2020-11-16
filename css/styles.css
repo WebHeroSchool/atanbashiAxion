@@ -404,14 +404,16 @@
 .footer {
 	height: 296px;
 	background: #000;
+	position: relative;
 }
 
 .footer__cards {
 	display: grid;
 	grid-template-columns: minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px);
-grid-column-gap: 23px;
-	max-width: 60%;
+	grid-column-gap: 28px;
+	max-width: 67%;
 	margin: 0 auto;
+	padding-top: 4%;;
 }
 
 .footer__menu{
@@ -421,13 +423,47 @@ grid-column-gap: 23px;
 	font-family: 'Gotham Pro';
 	font-size: 12px;
 	line-height: 11px;
-	color: #FFF;
+	color: #fff;
+	margin-bottom: 4px;
+}
+
+.footer__menu-item {
+	margin-bottom: 6px;
 }
 
 .footer__card-link {
 	font-family: 'Gotham Pro';
 	font-size: 12px;
 	line-height: 11px;
-	color: #FFF;
+	color: #fff;
 	text-decoration: none;
+}
+
+.footer__card-btn {
+	font-family: 'Gotham Pro';
+	font-size: 10px;
+	line-height: 10px;
+	color: #fff;
+	width: 78%;
+	height: 3em;
+	background: #000;
+	border: 1.5px solid #FFF;
+	margin-top: 6px;
+}
+
+.footer__socials {
+	width: 78%;
+	padding-top: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__commercial {
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	line-height: 11px;
+	color: #fff;
+	position: absolute;
+	right: 42%;
+	bottom: 33px;
 }
