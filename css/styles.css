@@ -45,8 +45,7 @@
 .menu-icon {
 	cursor: pointer;
 	display: inline-block;
-	float: right; /*
-	padding: 28px 20px;*/
+	float: right;
 	position: relative;
 	user-select: none;
 }
@@ -261,7 +260,7 @@
 /* section2 start */
 
 .section2 {
-	margin-bottom: 26px;
+	margin-bottom: 49px;
 }
 .section2__title {
 	font-family: 'Gotham Pro';
@@ -336,19 +335,16 @@
 
 .section3__view {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	padding-left: 1%;
 }
 .section3__video {
-	width: 97%;
+	width: 100%;
 }
 
 .section3__info {
 	max-width: 320px;
 	padding-right: 2%;
-	display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .section3__title {
@@ -359,6 +355,7 @@
 	color: #FFFFFF;
 	max-width: 265px;
 	margin-bottom: 14px;
+	padding-top: 58%;
 }
 
 .section3__text {
@@ -479,6 +476,7 @@
 	color: #000;
 	opacity: 0.3;
 	text-align: right;
+	margin-bottom: 1%;
 }
 
 .section5__cards{
@@ -503,10 +501,10 @@
 .footer__cards {
 	display: grid;
 	grid-template-columns: minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px);
-	grid-column-gap: 28px;
-	max-width: 67%;
+	grid-column-gap: 26px;
+	max-width: 76%;
 	margin: 0 auto;
-	padding-top: 4%;;
+	padding-top: 63px;
 }
 
 .footer__menu{
@@ -546,7 +544,7 @@
 
 .footer__socials {
 	width: 78%;
-	padding-top: 30%;
+	padding-top: 13%;
 	display: flex;
 	justify-content: space-between;
 }
