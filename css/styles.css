@@ -43,40 +43,33 @@
 /* burger line */
 
 .menu-icon {
+	width: 61px;
+	height: 24px;
 	cursor: pointer;
-	display: inline-block;
-	float: right;
 	position: relative;
-	user-select: none;
 }
 
 .navicon {
-	margin-right: -12px;
-	background: #000;
+	background-color: #000;
 	display: block;
-	height: 9px;
-	position: relative;
-	transition: background .2s ease-out;
-	width: 3.8em;
-	z-index: 999999;
-}
-
-.menu-icon .navicon:before,
-.menu-icon .navicon:after {
-	background: #000;
-	content: '';
-	display: block;
-	height: 100%;
+	height: 8px;
 	position: absolute;
-	transition: all .2s ease-out;
 	width: 100%;
+	left: 0;
+	transition: .3s all linear;
 }
 
-.menu-icon .navicon:before {
-	top: 18px;
+.navicon_first {
+	top: 0;
 }
 
-.menu-icon .navicon:after {
+.navicon_second {
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #fff;
+}
+
+.navicon_third {
 	bottom: 0;
 }
 
@@ -84,46 +77,16 @@
 	display: none;
 }
 
-.menu-btn:checked ~ .nav {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	display: block;
-	height: 100%;
-	z-index: 100;
-	background: #fff;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.menu-btn:checked ~ .menu-icon .navicon_first {
+	transform: translateY(100%) rotate(-45deg);
 }
 
-.menu-btn:checked ~ .nav .nav__link {
-	font-size: 30px;
-	line-height: 35px;
-	margin: 0 0 24px 0;
+.menu-btn:checked ~ .menu-icon .navicon_second {
+	background-color: transparent;
 }
 
-.menu-btn:checked ~ .menu-icon .navicon {
-	background: transparent;
-}
-
-.menu-btn:checked ~ .menu-icon .navicon:before {
-	transform: rotate(-45deg);
-}
-
-.menu-btn:checked ~ .menu-icon .navicon:after {
-	transform: rotate(45deg);
-}
-
-.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-	top: 0;
-}
-.menu-btn:checked ~ .logo {
-	opacity: 0;
+.menu-btn:checked ~ .menu-icon .navicon_third {
+	transform: translateY(-100%) rotate(45deg);
 }
 
 .menu-icon {
@@ -293,7 +256,7 @@
 	height: 173px;
 	display: flex;
 	justify-content: center;
-	padding-top: 7%;
+	padding-top: 6%;
 	padding-left: 9%;
 	padding-bottom: 27px;
 }
@@ -564,6 +527,13 @@
 /* media start */
 
 @media all and (max-width: 768px) {
+
+	.nav-left {
+		width: 100%;
+		padding: 0 43px;
+		display: flex;
+		justify-content: space-between;
+	}
 
 	.logo {
 		width: 156px;
