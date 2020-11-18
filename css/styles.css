@@ -173,6 +173,7 @@
 	border-radius: 20px;
 	margin-right: 35px;
 }
+
 .header__lang {
 	width: 20px;
 	height: 20px;
@@ -256,7 +257,7 @@
 	height: 173px;
 	display: flex;
 	justify-content: center;
-	padding-top: 6%;
+	padding-top: 7%;
 	padding-left: 9%;
 	padding-bottom: 27px;
 }
@@ -293,7 +294,7 @@
 	background-color: #000;
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 80px;
+	margin-bottom: 79px;
 }
 
 .section3__view {
@@ -381,7 +382,7 @@
 	font-size: 18px;
 	line-height: 17px;
 	color: #000;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 
 .section4__card-text {
@@ -525,6 +526,63 @@
 /* footer end */
 
 /* media start */
+
+@media all and (max-width: 1024px) {
+
+	.wrap {
+	  max-width: 930px;
+	}
+
+	.header {
+		padding-top: 29px;
+		margin-bottom: 41px;
+	}
+
+	.logo {
+		width: 61px;
+		height: 58px;
+		margin-right: 29px;
+	}
+
+	.nav-right__info {
+		width: 104%;
+	}
+
+	.nav-right__field {
+		width: 160px;
+	}
+
+	.header__link_log {
+		margin-right: 28px;
+	}
+
+	.header__number {
+		margin-right: 25px;
+	}
+
+	.section1 {
+		background-size: cover;
+		height: 254px;
+		margin-bottom: 65px;
+	}
+
+	.section1__title {
+		padding: 76px 0 7px 55px;
+	}
+	.section1__shop {
+		padding-left: 54px;
+	}
+
+	.section2__pic {
+		padding-top: 10%;
+		padding-left: 5%;
+		padding-bottom: 24px;
+	}
+	
+	.section2__img{
+		width: 94%;
+	}
+}
 
 @media all and (max-width: 768px) {
 
