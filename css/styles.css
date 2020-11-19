@@ -650,6 +650,15 @@
 
 @media all and (max-width: 768px) {
 
+	.wrap {
+		overflow: hidden;
+		position: relative;
+	}
+	.header {
+		padding-top: 41px;
+		margin-bottom: 38px;
+	}
+
 	.nav-left {
 		width: 100%;
 		padding: 0 43px;
@@ -665,14 +674,62 @@
 		margin-right: 0;
 	}
 
-  .header .menu-icon {
-    display: block;
-  }
+	.header .menu-icon {
+		display: block;
+	}
 
-  .header__list, .nav-right {
-    display: none;
-  }
+	.header__list, .nav-right {
+		display: none;
+	}
 
+	.section1 {
+		height: 415px;
+		width: 1527px;
+		position: absolute;
+		left: -17%;
+	}
+
+	.section1__title {
+		font-size: 50px;
+		line-height: 48px;
+		padding: 121px 0 49px 175px;
+	}
+
+	.section1__shop{
+		font-size: 20px;
+		line-height: 19px;
+		padding-left: 175px;
+	}
+
+	.section2 {
+		margin-top: 68%;
+	}
+
+	.section2__title {
+		font-size: 30px;
+		line-height: 29px;
+	}
+
+	.section2__cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.section2__card {
+		background: none;
+	}
+	.section2__card_third, .section2__card_fourth {
+		display: none;
+	}
+
+	.section2__text {
+		font-size: 20px;
+		line-height: 19px;
+	}
+
+	.section2__money {
+		font-size: 25px;
+		line-height: 24px;
+	}
 }
 
 /* media end */
