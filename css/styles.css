@@ -393,6 +393,18 @@
 	margin-bottom: 18px;
 }
 
+.section4__card-text_author {
+	margin-bottom: 0;
+}
+
+.section4__card-text2 {
+	font-family: 'Gotham Pro';
+	font-size: 14px;
+	line-height: 17px;
+	color: #000;
+	margin-bottom: 18px;
+}
+
 .section4__story {
 	display: flex;
 	justify-content: space-between;
@@ -465,13 +477,17 @@
 .footer__cards {
 	display: grid;
 	grid-template-columns: minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px) minmax(100px, 180px);
-	grid-column-gap: 26px;
-	max-width: 76%;
+	grid-column-gap: 29px;
+	max-width: 75%;
 	margin: 0 auto;
 	padding-top: 63px;
 }
 
 .footer__menu{
+}
+
+.footer__menu-item-title {
+	margin-bottom: 8px;
 }
 
 .footer__card-title {
@@ -492,6 +508,7 @@
 	line-height: 11px;
 	color: #fff;
 	text-decoration: none;
+	margin-bottom: 6px;
 }
 
 .footer__card-btn {
