@@ -419,6 +419,11 @@ input[type='search']::-webkit-search-results-decoration {
 	margin-bottom: 29px;
 }
 
+.section4__img {
+	width: 100%;
+	height: 100%;
+}
+
 .section4__card-title {
 	font-family: 'Gotham Pro';
 	font-size: 18px;
@@ -628,22 +633,28 @@ input[type='search']::-webkit-search-results-decoration {
 	.section1__title {
 		padding: 76px 0 7px 55px;
 	}
+
 	.section1__shop {
 		padding-left: 54px;
 	}
 
 	.section2 {
-		margin-bottom: 71px;
+		margin-bottom: 76px;
+	}
+
+	.section2__cards {
+		grid-column-gap: 33px;
 	}
 
 	.section2__pic {
-		padding-top: 10%;
+		padding-top: 12%;
 		padding-left: 5%;
 		padding-bottom: 24px;
 	}
 
 	.section2__img{
 		width: 94%;
+		height: 94%;
 	}
 
 	.section3 {
@@ -676,7 +687,7 @@ input[type='search']::-webkit-search-results-decoration {
 	}
 
 	.section4 {
-
+		margin-bottom: 90px;
 	}
 
 	.section4__title {
@@ -687,22 +698,34 @@ input[type='search']::-webkit-search-results-decoration {
 		grid-column-gap: 49px;
 	}
 
-	.section4__card {
-		max-width: 91%;
+	.section4__card{
+		width: 277px;
+		height: 100%;
 	}
 
 	.section4__card-pic {
 		width: 100%;
-		height: 37%;
+		height: 147px;
+		margin-bottom: 33px;
 	}
+
 	.section4__img {
-		max-width: 110%;
+		max-width: 100%;
 		height: 100%;
-		object-fit: contain;
 	}
+
 	.section4__card-text {
 		font-size: 13px;
 		line-height: 16px;
+		margin-bottom: 23px;
+	}
+
+	.section4__card-text_author {
+		margin-bottom: 0;
+	}
+
+	.section4__card-text2 {
+		margin-bottom: 22px;
 	}
 }
 
