@@ -530,13 +530,30 @@ input[type='search']::-webkit-search-results-decoration {
 	padding-top: 63px;
 }
 
-.footer__menu{
+.footer__menu_custom {
+	padding-left: 2%;
+}
+
+.footer__menu_info {
+	padding-left: 3%;
+}
+
+.footer__menu_soc {
+	width: 180px;
+	padding-left: 5%;
 }
 
 .footer__menu-item-title {
 	margin-bottom: 8px;
 }
 
+.footer__menu-item-title-soc {
+	margin-bottom: 5px;
+}
+
+.footer__menu-item-soc {
+	margin-bottom: 3px;
+}
 .footer__card-title {
 	font-family: 'Gotham Pro';
 	font-size: 12px;
@@ -571,7 +588,7 @@ input[type='search']::-webkit-search-results-decoration {
 
 .footer__socials {
 	width: 78%;
-	padding-top: 20%;
+	padding-top: 19%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -727,6 +744,23 @@ input[type='search']::-webkit-search-results-decoration {
 	.section4__card-text2 {
 		margin-bottom: 22px;
 	}
+
+	.section5 {
+		margin-bottom: 93px;
+	}
+
+	.section5__img {
+		width: 102%;
+	}
+
+	.footer__cards {
+		max-width: 83%;
+	}
+
+	.footer__commercial {
+		right: 41%;
+		bottom: 35px;
+	}
 }
 
 @media all and (max-width: 768px) {
@@ -737,7 +771,7 @@ input[type='search']::-webkit-search-results-decoration {
 	}
 	.header {
 		padding-top: 41px;
-		margin-bottom: 38px;
+		margin-bottom: 39px;
 	}
 
 	.nav-left {
