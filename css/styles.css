@@ -771,7 +771,7 @@ input[type='search']::-webkit-search-results-decoration {
 	}
 	.header {
 		padding-top: 41px;
-		margin-bottom: 39px;
+		margin-bottom: 38px;
 	}
 
 	.nav-left {
@@ -817,12 +817,15 @@ input[type='search']::-webkit-search-results-decoration {
 	}
 
 	.section2 {
-		margin-top: 68%;
+		margin-top: 67%;
+		margin-bottom: 68px;
 	}
 
 	.section2__title {
 		font-size: 30px;
 		line-height: 29px;
+		padding-top: 4px;
+		padding-right: 16px;
 	}
 
 	.section2__cards {
@@ -830,20 +833,150 @@ input[type='search']::-webkit-search-results-decoration {
 	}
 
 	.section2__card {
+		max-width: 281px;
+		height: 352px;
 		background: none;
+		padding-left: 19%;
+		padding-top: 1%;
 	}
+
+	.section2__card_second {
+		padding-left: 4%;
+	}
+
 	.section2__card_third, .section2__card_fourth {
 		display: none;
+	}
+
+	.section2__pic {
+		max-width: 88%;
+		height: 66%;
+		padding-top: 10%;
+		padding-left: 7%;
+		padding-bottom: 16px;
 	}
 
 	.section2__text {
 		font-size: 20px;
 		line-height: 19px;
+		margin-bottom: 17px;
+	}
+
+	.section2__choice {
+		padding-right: 6%;
+		align-items: center;
+	}
+
+	.section2__choice_camel {
+		padding-right: 0;
+		padding-left: 6%;
 	}
 
 	.section2__money {
 		font-size: 25px;
 		line-height: 24px;
+	}
+
+	.section2__colour {
+		width: 36%;
+		display: flex;
+	}
+
+	.section2__colour-img {
+		width: 33%;
+	}
+
+	.section2__colour-img:last-child {
+		margin-right: 0;
+	}
+
+	.section3 {
+		flex-direction: column-reverse;
+		padding-bottom: 34%;
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	.section3::before {
+
+		display: block;
+		content: '';
+		width: 100%;
+		height: 34px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translateY(-100%);
+		background: linear-gradient(to top right, #000 50%, rgba(0,0,0,0) 52%);
+	}
+
+	.section3__info {
+		max-width: 100%;
+		padding-right: 0;
+	}
+
+	.section3__title {
+		max-width: 100%;
+		text-align: center;
+		font-size: 30px;
+		line-height: 37px;
+		padding-top: 28%;
+		margin-bottom: 17px;
+	}
+
+	.section3__text {
+		font-size: 20px;
+		line-height: 25px;
+		max-width: 683px;
+		text-align: center;
+		padding-left: 6%;
+		padding-bottom: 0;
+		margin-bottom: 88px;
+	}
+
+	.section3__more {
+		display: none;
+	}
+
+	.section3__view {
+		margin-top: -48px;
+	}
+
+	.section3__video {
+		height: 100%;
+		width: 94%;
+		padding-left: 10px;
+	}
+
+	.section4 {
+		background-color: #000;
+		margin-bottom: 0;
+		padding-bottom: 90px;
+	}
+
+	.section4__title {
+		color: #fff;
+	}
+
+	.section4__card-title {
+		color: #fff;
+	}
+
+	.section4__card-text {
+		color: #fff;
+	}
+
+	.section4__card_kevin {
+		display: none;
+	}
+
+	.section5 {
+		margin-bottom: 37%;
+	}
+
+	.section5__cards {
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
