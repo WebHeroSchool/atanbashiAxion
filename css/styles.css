@@ -769,6 +769,7 @@ input[type='search']::-webkit-search-results-decoration {
 		overflow: hidden;
 		position: relative;
 	}
+
 	.header {
 		padding-top: 41px;
 		margin-bottom: 38px;
@@ -931,7 +932,7 @@ input[type='search']::-webkit-search-results-decoration {
 		text-align: center;
 		padding-left: 6%;
 		padding-bottom: 0;
-		margin-bottom: 88px;
+		margin-bottom: 74px;
 	}
 
 	.section3__more {
@@ -940,6 +941,9 @@ input[type='search']::-webkit-search-results-decoration {
 
 	.section3__view {
 		margin-top: -48px;
+		height: auto;
+		padding: 0px 0px 7px 24px;
+		width: 97%;
 	}
 
 	.section3__video {
@@ -955,15 +959,57 @@ input[type='search']::-webkit-search-results-decoration {
 	}
 
 	.section4__title {
+		font-size: 30px;
+		line-height: 29px;
 		color: #fff;
+		margin-bottom: 44px;
 	}
 
+	.section4__cards {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 0px 44px;
+		height: 500px;
+	}
+
+	.section4__card {
+		width: 100%;
+	}
 	.section4__card-title {
+		font-size: 25px;
+		line-height: 24px;
 		color: #fff;
+		padding-left: 1%;
+	}
+
+	.section4__card-pic {
+		height: 33%;
+		margin-bottom: 31px;
 	}
 
 	.section4__card-text {
+		font-size: 20px;
+		line-height: 25px;
 		color: #fff;
+		padding-left: 2px;
+		margin-bottom: 37px;
+	}
+
+	.section4__card-text2 {
+		font-size: 20px;
+		line-height: 25px;
+		color: #fff;
+	}
+
+	.section4__more {
+		font-size: 20px;
+		line-height: 19px;
+		color: #fff;
+	}
+
+	.section4__date {
+		color: #fff;
+		font-size: 15px;
+		line-height: 14px;
 	}
 
 	.section4__card_kevin {
