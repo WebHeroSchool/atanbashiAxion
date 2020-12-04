@@ -507,9 +507,13 @@ input[type='search']::-webkit-search-results-decoration {
 	grid-template-columns: repeat(7, 1fr);
 }
 
-.section5__img_hidden {
+.section5__img-8 {
 	display: none;
 }
+/*
+.section5__img_hidden {
+	display: none;
+}*/
 
 /* section5 end */
 
@@ -982,6 +986,7 @@ input[type='search']::-webkit-search-results-decoration {
 	.section4__card {
 		width: 100%;
 	}
+
 	.section4__card-title {
 		font-size: 25px;
 		line-height: 24px;
@@ -1065,6 +1070,10 @@ input[type='search']::-webkit-search-results-decoration {
 	.section5__cards {
 		grid-template-rows: repeat(2, 1fr);
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.section5__img-8 {
+		display: block;
 	}
 
 	.section5__img {
@@ -1314,9 +1323,9 @@ input[type='search']::-webkit-search-results-decoration {
 
 	.section5 {
 		padding: 0 48px;
-		margin-bottom: 21%;
+		margin-bottom: 23%;
 	}
-	
+
 	.section5__title {
 		font-size: 25px;
 		line-height: 24px;
@@ -1327,18 +1336,94 @@ input[type='search']::-webkit-search-results-decoration {
 	.section5__cards {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 1fr);
-
 	}
 
 	.section5__img {
+		height: 140px;
 	}
 
-	.section5__img_hidden1 {
+	.section5__img-4 {
 		display: none;
 	}
 
-	.section5__img_hidden {
+	.section5__img-3 {
+		grid-column: 2;
+		grid-row: 3;
+	}
+
+	.section5__img-5 {
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	.section5__img-8 {
 		display: none;
+	}
+
+	.footer {
+		height: 898px;
+	}
+
+	.footer__cards {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: 1fr 1fr 1fr 2fr;
+		grid-row-gap: 17px;
+		padding-top: 33px;
+		max-width: 49%;
+	}
+
+	.footer__menu {
+		margin: 0 auto;
+	}
+
+	.footer__menu_custom {
+		grid-column: 1;
+		grid-row: 3;
+		padding-left: 0;
+	}
+
+	.footer__menu_info {
+		padding-left: 0;
+	}
+
+	.footer__menu_soc {
+		padding-left: 0;
+		width: 180px;
+	}
+
+	.footer__menu-item-title {
+		justify-content: center;
+		margin-bottom: 4px;
+	}
+
+	.footer__card-title {
+		font-size: 15px;
+		line-height: 14px;
+		margin-bottom: 0;
+	}
+
+	.footer__menu-item {
+		text-align: center;
+		margin-bottom: 6px;
+	}
+
+	.footer__menu_info .footer__menu-item {
+		margin-bottom: 5px;
+	}
+
+	.footer__card-link {
+		font-size: 15px;
+		line-height: 14px;
+	}
+
+	.footer__card-btn {
+		font-size: 15px;
+		line-height: 14px;
+	}
+
+	.footer__commercial {
+		font-size: 13px;
+		line-height: 12px;
 	}
 }
 /* media end */
